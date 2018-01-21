@@ -35,7 +35,7 @@ This package segments satellite imagery over large swaths of land (or sea).  The
 	conda env create -f apls_environment.yml   # to deactivate environment: source deactivate
 	source activate apls_environment
 
-	# for details on arguments type: python create_spacenet_masks.py --help
+	#for details on arguments type: python create_spacenet_masks.py --help
 	python $basiss_path/create_spacenet_masks.py \
 	    --path_data=/path_to_spacenet_data/AOI_2_Vegas_Train \
 	    --output_df_path=$basiss_path/packaged_data/AOI_2_Train_2m_file_locs.csv \
