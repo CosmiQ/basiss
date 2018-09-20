@@ -5,8 +5,7 @@ Broad Area Satellite Imagery Semantic Segmentation
 
 Code Overview
 
-This package segments satellite imagery over large swaths of land (or sea).  The included examples use [SpaceNet](https://spacenetchallenge.github.io/) labels to identify roads in high resolution satellite imagery.  Access to a GPU is required for training, though inference will function (slowly) on a CPU.
-
+This package segments satellite imagery over large swaths of land (or sea).  The included examples use [SpaceNet](https://spacenetchallenge.github.io/) labels to identify roads in high resolution satellite imagery.  Access to a GPU is required for training, though inference will function (slowly) on a CPU.  See our [blog post](https://medium.com/the-downlinq/broad-area-satellite-imagery-semantic-segmentation-basiss-4a7ea2c8466f) for further details.
 
 ==============================================================================
 
@@ -28,7 +27,7 @@ This package segments satellite imagery over large swaths of land (or sea).  The
 
 ==============================================================================
 
-3.	Create training masks.  The script used here is a lightly modified version of the code described in [Blog1](https://medium.com/the-downlinq/creating-training-datasets-for-the-spacenet-road-detection-and-routing-challenge-6f970d413e2f).  Execute these scripts in a unique conda environment; conda install insctuctions are [here](https://conda.io/miniconda.html). The commands below create the training images; replace "train" with "test" to create testing images.
+3.	Create training masks.  The script used here is a lightly modified version of the code described in [our blog](https://medium.com/the-downlinq/creating-training-datasets-for-the-spacenet-road-detection-and-routing-challenge-6f970d413e2f).  Execute these scripts in a unique conda environment; conda install insctuctions are [here](https://conda.io/miniconda.html). The commands below create the training images; replace "train" with "test" to create testing images.
 
 	basiss_path=/raid/local/src/basiss
 	cd $basiss_path/src
